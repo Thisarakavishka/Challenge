@@ -16,6 +16,11 @@ Deserialize JSON values to java object using any json library
 
 ## Manipulate
 Now java object can manipulation
+```
+testObject.setProperty("test");
+testObject.setPropertyValue(25.77);
+testObject.setValue(134);
+```
 
 ## Serialize
 Now java object can serialize to JSON object
